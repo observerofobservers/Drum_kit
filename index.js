@@ -45,13 +45,14 @@ function makeSound(key) {
 
 function getSoundFile(key) {
     const sounds = {
-        w: 'crash.mp3',
-        a: 'kick-bass.mp3',
-        s: 'snare.mp3',
-        d: 'tom-1.mp3',
-        j: 'tom-2.mp3',
-        k: 'tom-3.mp3',
-        l: 'tom-4.mp3'
+        t: 'crash.mp3',
+        k: 'kick-bass.mp3','
+        l: 'kick-bass.mp3',
+        e: 'snare.mp3',
+        a: 'tom-1.mp3',
+        s: 'tom-2.mp3',
+        d: 'tom-3.mp3',
+        f: 'tom-4.mp3'
     };
     return sounds[key];
 }
